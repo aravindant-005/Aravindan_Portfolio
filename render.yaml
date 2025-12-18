@@ -11,7 +11,7 @@ services:
       - key: PORT
         value: 3001
     healthCheckPath: /
-    
+
   # Frontend Static Site
   - type: web
     name: portfolio-frontend

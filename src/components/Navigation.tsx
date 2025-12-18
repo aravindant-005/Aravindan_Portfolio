@@ -14,6 +14,7 @@ const Navigation = () => {
     { id: "skills", label: "Skills", icon: Code, type: "internal" },
     { id: "events", label: "Events", icon: Calendar, type: "internal" },
     { id: "resume", label: "Certificates", icon: Award, type: "internal" },
+    { id: "graphic-designs", label: "Graphic Designs", icon: Code, type: "internal" }, // New item
     { id: "contact", label: "Contact", icon: Mail, type: "internal" },
     { id: "resume-link", label: "View Resume", icon: FileText, href: "/src/components/sections/Resume.png", type: "external" },
   ];

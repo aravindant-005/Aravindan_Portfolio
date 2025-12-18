@@ -20,7 +20,7 @@ This guide will help you deploy your portfolio application to Render with both f
    - Render will automatically detect the `render.yaml` file
 
 2. **Configure Environment Variables**
-   
+
    For the **Backend Service** (portfolio-backend):
    - Add environment variable `GMAIL_USER`: `aravindant005@gmail.com`
    - Add environment variable `GMAIL_APP_PASSWORD`: `odkv bdcf dxmo lnmu`
