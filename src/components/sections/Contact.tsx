@@ -48,7 +48,8 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await fetch('http://localhost:3001/send-email', {
+      // Replace with your Render backend URL after deployment
+      const response = await fetch('https://portfolio-backend-5zbg.onrender.com/send-email', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
